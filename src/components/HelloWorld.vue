@@ -1,17 +1,23 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>Url: {{ msg }}</h1>
   </div>
 </template>
 
 <script>
+
+
+
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Url: ' + process.env.WEBTASK_URL
+      msg: 'hi'
     }
-  }
+  },
+  mounted() {
+    console.log(process.env.WEBTASK_URL)
+  },
 }
 </script>
 
