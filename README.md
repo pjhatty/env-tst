@@ -1,6 +1,8 @@
 # env-vars
 
-> A Vue.js project
+> A Vue.js project which uses dotenv in the absence of netlify's env vars
+
+> based on this tutorial: https://alligator.io/vuejs/working-with-environment-variables/
 
 ## Build Setup
 
